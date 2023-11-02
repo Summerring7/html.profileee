@@ -77,22 +77,33 @@ body {
 }
 
 @media (min-width: 319px) and (max-width: 480px) {
-    .gif1 {
-        float: none;
-        width: auto;
-        margin-right: 0;
+    .container {
+        margin-left: 3%;
+        margin-right: 3%;
     }
     .mini-container {
         height: 319px;
     }
     #pf {
         height : 150px;
+        border-radius: 50%;
     }
     #pf-p {
         width: 300px;
+        border: solid white 3px;
     }
     .mini-container {
         font-size : smaller;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .gif1 {
+        float: none;
+        width: auto;
+        margin-right: 0;
+    }
+    .gifs {
+        text-align: center;
     }
 }
 
